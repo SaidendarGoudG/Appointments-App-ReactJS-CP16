@@ -16,6 +16,9 @@ class Appointments extends Component {
         if (eachApp.isFavorite) {
           return eachApp
         }
+        else{
+          return false
+        }
       }),
     }))
   }
