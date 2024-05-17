@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-item-container {
+  border-radius: 10px;
+  border: 2px solid #b5b7c4;
+  background-color: transparent;
+  height: 120px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #171f46;
+}
+app-date {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #b5b7c4;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.star-image {
+  width: 30px;
+  height: 30px;
+}
