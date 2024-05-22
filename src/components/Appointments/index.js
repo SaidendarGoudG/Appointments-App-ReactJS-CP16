@@ -66,7 +66,7 @@ class Appointments extends Component {
     return (
       <div className="app-container">
         <div className="Appointments-container">
-          <h1 className="heading2">Add Appointments</h1>
+          <h1 className="heading2">Add Appointment</h1>
           <div className="form-image-container">
             <form onSubmit={this.onAddAppointment}>
               <label className="label" htmlFor="inputTitle">
